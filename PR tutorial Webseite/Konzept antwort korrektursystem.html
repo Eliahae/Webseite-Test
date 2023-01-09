@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title>korriegier Konzept</title>
+<!-- Link zum Java script -->
+<script type="text/javascript" src="korrektursystem.js"></script>
+<!-- Link zum Stylesheet -->
+<link rel="stylesheet" type="text/css" href="korrektursystem.css">
+</head>
+
+<body>
+<center>
+<h3> <i> Idee zum korriegier System </i> </h3>
+</center>
+<!-- Erste Aufgabe -->
+<div class="box">
+<p>schreibe Hello in das eingabefeld</p>
+<Input type="text" id="eingabe1" placeholder="code hier">
+<button onclick= auswerten('Hello','eingabe1','ausgabe1')> auswerten </button>
+<br/>
+
+<p id="ausgabe1" class="korrektur"></p>
+</div>
+<br/>
+<br/>
+<br/>
+<!-- zweite aufgabe -->
+<div class="box">
+<p>gib Hello World aus mit python</p>
+<Input type="text" id="eingabe2" placeholder="code hier">
+<button onclick= auswerten('print("Hello World")','eingabe2','ausgabe2')> auswerten </button>
+<br/>
+
+<p id="ausgabe2" class="korrektur" ></p>
+</div>
+<br/>
+<br/>
+<br/>
+<!-- dritte aufgabe -->
+<div class="box">
+<p>schliesse den body tag</p>
+
+
+<br/>
+
+
+
+
+ <xmp>
+ 
+<html>
+ <head>
+ <title>My Website</title>
+ </head>
+ <body>
+ <h1>Welcome to my website!</h1>
+ <p>I'm glad you're here. This is my personal website.</p>
+  </xmp> 
+  <Input type="text" id="eingabe3" size="7">
+ <xmp>
+</html>
+</xmp>
+<button onclick= auswerten('&lt/body&gt','eingabe3','ausgabe3')> auswerten </button>
+<br/>
+<p id="ausgabe3" class="korrektur" ></p>
+
+
+</div>
+</body>
+</html>
